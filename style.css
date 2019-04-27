@@ -1,0 +1,63 @@
+body, input{
+  font-family: Handlee;
+	font-weight: bold;
+}
+
+body{
+	background-color: black;
+}
+
+#main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -207px;
+  width: 415px;
+  height: 300px;
+	border: 1px gray solid;
+
+	background: white url("http://assets.breatheco.de/apis/img/icon/4geeks.png") no-repeat 350px 10px;
+  background-size: 55px 55px;
+}
+
+table{
+	padding: 7px;
+}
+
+td{
+	width: 200px;
+}
+
+form{
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+input{
+	border: none;
+	border-bottom: 1px gray solid;
+	font-size: 15px;
+	width: 180px;
+	height: 27px;
+}
+
+#submit{
+	position: relative;
+	top: 90px;
+	left: -60px;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	vertical-align: 10px;
+	padding: 5px;
+	color: black;
+	background-color: #bbbbbb;
+	border: 1px solid;
+  border-color: #ddd #aaa #aaa #ddd;
+	text-decoration: none;
+}
+
+#submit:active{
+	border-color: #aaa #ddd #ddd #aaa;
+}

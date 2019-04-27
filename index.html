@@ -1,10 +1,38 @@
-<! –- We must always begin with an HTML label to show the browser that this is a document with an HTML format. — >
 <!DOCTYPE html>
 <html>
-   <head>
-   <! — Inside the head tag we will define all that the browser needs BEFORE it begins to interpret the page. –>
-   </head>
-   <body>
-   <!–Inside the body we will define the real content of the page.–>
-   </body>
+<head>
+<meta charset="utf-8">
+<title>The Postcard</title>
+<link rel="stylesheet" style="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+</head>
+<body>
+  <div id="main">
+    <table>
+    	<tr>
+				<td>
+
+<h2>My Postcard</h2>
+
+<p>Look! Pretty cool. This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy pre work.</p>
+
+<p>I can't wait to start with Python.</p>
+
+				</td>
+				<td>
+
+<form action="http://formspree.io/info@breatheco.de" enctype="text/plain">
+  <input type="text" name="name" placeholder="Some Name">
+  <input type="text" name="email" placeholder="Some Email">
+	<input type="text" name="comments" placeholder="Some Comments">
+
+  <input id="submit" type="submit" value="Send My Postcard">
+</form>
+
+				</td>
+			</tr>
+    </table>
+  </div>
+</body>
 </html>
